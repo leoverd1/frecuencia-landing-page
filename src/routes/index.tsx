@@ -64,8 +64,9 @@ function Index() {
 
       <section className="flex items-center justify-center min-h-[78vh] px-4">
         <h1
-          className="font-display text-foreground text-center select-none w-full leading-none"
+          className="font-display text-center select-none w-full leading-none frecuencia-vibrate"
           style={{ fontSize: "clamp(4rem, 17vw, 20rem)" }}
+          data-text="Frecuencia"
         >
           Frecuencia
         </h1>
@@ -74,26 +75,6 @@ function Index() {
       <section className="text-center pb-20 md:pb-32 px-6">
         <p className="text-base md:text-lg">M – X : 21pm – 2am · J : 21pm – 4am</p>
         <p className="text-base md:text-lg">V – S : 21pm – 6am · D – L : Cerrado</p>
-      </section>
-
-      <section
-        id="reserva"
-        className="border-t border-foreground/20 py-20 md:py-32 px-6 md:px-10 text-center"
-      >
-        <h2
-          className="font-display"
-          style={{ fontSize: "clamp(3rem, 10vw, 9rem)" }}
-        >
-          Reserva tu
-          <br />
-          experiencia
-        </h2>
-        <a
-          href="mailto:frecuencia@grupolabikina.com"
-          className="inline-block mt-10 px-8 py-4 bg-foreground text-background rounded-full text-sm tracking-wide hover:opacity-90 transition-opacity"
-        >
-          Reservar →
-        </a>
       </section>
 
       <section className="grid grid-cols-1 md:grid-cols-3 border-t border-foreground/20">
