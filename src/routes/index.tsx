@@ -29,7 +29,6 @@ export const Route = createFileRoute("/")({
 });
 
 const NAV = [
-  { label: "Reservas", href: "#reserva" },
   { label: "Horario", href: "#horario" },
   { label: "Dirección", href: "#ubicacion" },
   { label: "Sobre", href: "#sobre" },
