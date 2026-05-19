@@ -137,18 +137,6 @@ function Index() {
         </div>
       </section>
 
-      <section className="border-t border-foreground/20 py-24 md:py-40 text-center px-6">
-        <a
-          href="mailto:frecuencia@grupolabikina.com"
-          className="font-display inline-block hover:tracking-tighter transition-all"
-          style={{ fontSize: "clamp(2.5rem, 9vw, 8rem)" }}
-        >
-          Reserva tu
-          <br />
-          experiencia →
-        </a>
-      </section>
-
       <footer className="border-t border-foreground/20 px-6 md:px-10 py-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs uppercase tracking-[0.2em]">
         <span>© Frecuencia Madrid</span>
         <span>Lagasca 103 · Salamanca</span>
