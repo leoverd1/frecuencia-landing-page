@@ -1,33 +1,3 @@
-import { createFileRoute } from "@tanstack/react-router";
-
-export const Route = createFileRoute("/")({
-  head: () => ({
-    meta: [
-      { title: "Frecuencia — Listening Bar, Madrid" },
-      {
-        name: "description",
-        content:
-          "Frecuencia: listening bar en Madrid inspirado en Japón y Copenhague. Música, diseño y noches largas en Calle de Lagasca 103.",
-      },
-      { property: "og:title", content: "Frecuencia — Listening Bar, Madrid" },
-      {
-        property: "og:description",
-        content:
-          "Listening bar en Madrid. Música, diseño y noches largas en Calle de Lagasca 103.",
-      },
-    ],
-    links: [
-      { rel: "preconnect", href: "https://fonts.googleapis.com" },
-      { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
-      {
-        rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=JetBrains+Mono:wght@400;500&display=swap",
-      },
-    ],
-  }),
-  component: Index,
-});
-
 const NAV = [
   { label: "Horario", href: "#horario" },
   { label: "Dirección", href: "#ubicacion" },
@@ -36,7 +6,7 @@ const NAV = [
   { label: "Contacto", href: "#contacto" },
 ];
 
-function Index() {
+export default function Home() {
   return (
     <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
       <header className="flex items-start justify-between px-6 md:px-10 pt-6 md:pt-8">
@@ -62,7 +32,7 @@ function Index() {
         </details>
       </header>
 
-      <section className="flex items-center justify-center min-h-[78vh] px-4">
+      <section className="flex items-center justify-center min-h[78vh] min-h-[78vh] px-4">
         <h1
           className="font-display text-center select-none w-full leading-none frecuencia-vibrate"
           style={{ fontSize: "clamp(4rem, 17vw, 20rem)" }}
