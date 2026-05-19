@@ -63,10 +63,10 @@ function Index() {
         </details>
       </header>
 
-      <section className="flex items-center justify-center min-h-[78vh] px-2">
+      <section className="flex items-center justify-center min-h-[78vh] px-4">
         <h1
-          className="font-display text-foreground text-center select-none"
-          style={{ fontSize: "clamp(8rem, 28vw, 28rem)" }}
+          className="font-display text-foreground text-center select-none w-full leading-none"
+          style={{ fontSize: "clamp(4rem, 17vw, 20rem)" }}
         >
           Frecuencia
         </h1>
