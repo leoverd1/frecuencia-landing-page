@@ -142,5 +142,14 @@
   body {
     background-color: var(--color-background);
     color: var(--color-foreground);
+    font-family: var(--font-mono);
+    font-feature-settings: "ss01", "ss02";
+  }
+
+  .font-display {
+    font-family: var(--font-display);
+    letter-spacing: -0.04em;
+    line-height: 0.85;
   }
 }
+
