@@ -32,7 +32,7 @@ export default function Home() {
         </details>
       </header>
 
-      <section className="flex items-center justify-center min-h[78vh] min-h-[78vh] px-4">
+      <section className="flex items-center justify-center min-h-[78vh] px-4">
         <h1
           className="font-display text-center select-none w-full leading-none frecuencia-vibrate"
           style={{ fontSize: "clamp(4rem, 17vw, 20rem)" }}
