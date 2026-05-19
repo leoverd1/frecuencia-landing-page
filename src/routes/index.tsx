@@ -32,7 +32,7 @@ const NAV = [
   { label: "Horario", href: "#horario" },
   { label: "Dirección", href: "#ubicacion" },
   { label: "Sobre", href: "#sobre" },
-  { label: "Instagram", href: "https://instagram.com" },
+  { label: "Instagram", href: "https://www.instagram.com/frecuenciamadrid/" },
   { label: "Contacto", href: "#contacto" },
 ];
 
