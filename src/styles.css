@@ -32,27 +32,27 @@
 :root {
   --radius: 0.625rem;
   /* Palette: #060203 black, #D86212 orange, #FAAD39 amber, #EAE6DC cream */
-  --background: #eae6dc;
-  --foreground: #060203;
+  --background: #060203;
+  --foreground: #eae6dc;
   --accent-orange: #d86212;
   --accent-amber: #faad39;
-  --card: #eae6dc;
-  --card-foreground: #060203;
-  --popover: #eae6dc;
-  --popover-foreground: #060203;
-  --primary: #060203;
-  --primary-foreground: #eae6dc;
-  --secondary: #faad39;
+  --card: #060203;
+  --card-foreground: #eae6dc;
+  --popover: #060203;
+  --popover-foreground: #eae6dc;
+  --primary: #eae6dc;
+  --primary-foreground: #060203;
+  --secondary: #eae6dc;
   --secondary-foreground: #060203;
-  --muted: rgba(6, 2, 3, 0.06);
-  --muted-foreground: rgba(6, 2, 3, 0.65);
-  --accent: #d86212;
-  --accent-foreground: #eae6dc;
+  --muted: rgba(234, 230, 220, 0.08);
+  --muted-foreground: rgba(234, 230, 220, 0.65);
+  --accent: #faad39;
+  --accent-foreground: #060203;
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: #eae6dc;
-  --border: rgba(6, 2, 3, 0.18);
-  --input: rgba(6, 2, 3, 0.18);
-  --ring: #d86212;
+  --border: rgba(234, 230, 220, 0.18);
+  --input: rgba(234, 230, 220, 0.18);
+  --ring: #faad39;
 
   --font-display: "SF Pro Display", -apple-system, BlinkMacSystemFont,
     "Helvetica Neue", "Inter", system-ui, sans-serif;
