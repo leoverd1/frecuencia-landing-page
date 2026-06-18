@@ -1,4 +1,6 @@
 import { Carousel } from "@/components/Carousel";
+import logoAsset from "@/assets/Artboard_1.png.asset.json";
+
 
 const NAV = [
   { label: "Horario", href: "#horario" },
@@ -53,12 +55,12 @@ export default function Home() {
       </header>
 
       <section className="flex items-center justify-center min-h-[72vh] md:min-h-[82vh] px-4">
-        <h1
-          className="font-display text-center select-none w-full leading-none frecuencia-vibrate"
-          style={{ fontSize: "clamp(3.5rem, 16vw, 18rem)" }}
-        >
-          Frecuencia
-        </h1>
+        <img
+          src={logoAsset.url}
+          alt="Frecuencia"
+          className="select-none w-full max-w-[min(80vw,800px)]"
+          draggable={false}
+        />
       </section>
 
       <section className="text-center pb-16 md:pb-24 px-6 font-mono-body text-sm md:text-base text-secondary">
