@@ -1,5 +1,5 @@
 import { Carousel } from "@/components/Carousel";
-import logoAsset from "@/assets/Artboard_1.png.asset.json";
+
 
 
 const NAV = [
@@ -56,7 +56,7 @@ export default function Home() {
 
       <section className="flex items-center justify-center min-h-[72vh] md:min-h-[82vh] px-4">
         <img
-          src={logoAsset.url}
+          src="/logo.png"
           alt="Frecuencia"
           className="select-none w-full max-w-[min(80vw,800px)]"
           draggable={false}
