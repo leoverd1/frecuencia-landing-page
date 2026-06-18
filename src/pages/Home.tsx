@@ -56,9 +56,11 @@ export default function Home() {
 
       <section className="flex items-center justify-center min-h-[72vh] md:min-h-[82vh] px-4">
         <img
-          src="/logo.png"
+          src="/logo.png?v=frecuencia-logo"
           alt="Frecuencia"
-          className="select-none w-full max-w-[min(80vw,800px)]"
+          width={1080}
+          height={346}
+          className="select-none block w-full max-w-[min(80vw,800px)] h-auto object-contain"
           draggable={false}
         />
       </section>
