@@ -1,4 +1,6 @@
 import { Carousel } from "@/components/Carousel";
+import logoAsset from "@/assets/Artboard_1.png.asset.json";
+
 
 const NAV = [
   { label: "Horario", href: "#horario" },
