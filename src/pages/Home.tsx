@@ -67,7 +67,7 @@ export default function Home() {
 
       <section className="text-center pb-16 md:pb-24 px-6 font-mono-body text-sm md:text-base text-secondary">
         <p>M – X : 21pm – 2am · J : 21pm – 4am</p>
-        <p>V – S : 21pm – 6am · D – L : Cerrado</p>
+        <p>V – S : 21pm – 5am · D – L : Cerrado</p>
       </section>
 
       {/* Carousel */}
@@ -94,7 +94,7 @@ export default function Home() {
           <ul className="space-y-2 text-base md:text-lg text-secondary">
             <li>M – X : 21pm – 2am</li>
             <li>J : 21pm – 4am</li>
-            <li>V – S : 21pm – 6am</li>
+            <li>V – S : 21pm – 5am</li>
             <li>D – L : Cerrado</li>
           </ul>
         </div>
