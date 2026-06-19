@@ -14,7 +14,7 @@ const CAROUSEL = [
   { src: "/carousel/IMG_2210.jpeg", alt: "Pour shot, sunset light" },
   { src: "/carousel/IMG_2209.jpeg", alt: "Coupe cocktail being served" },
   { src: "/carousel/IMG_2211.jpeg", alt: "Glowing wall lanterns" },
-  { src: "/carousel/IMG_2208.jpeg", alt: "Bar Frecuencia menu print" },
+  { src: "/carousel/IMG_2211.jpeg", alt: "Glowing wall lanterns" },
   { src: "/carousel/IMG_2207.jpeg", alt: "Three coupe cocktails" },
   { src: "/carousel/IMG_2206.jpeg", alt: "Backlit coupe glass" },
   { src: "/carousel/IMG_2205.jpeg", alt: "Highball with garnish" },
